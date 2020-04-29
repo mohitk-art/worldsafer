@@ -59,9 +59,12 @@ a:focus,
 .header--nav-links.style--3 > li.active > a:focus,
 .footer--copyright .text span,
 .cs--content .newsletter--widget .btn-link,
-.f0f--content .search--widget .btn-link,
-.text-primary {
+.f0f--content .search--widget .btn-link {
   color: #0c75b7;
+}
+
+.text-primary {
+  color: #0c75b7 !important;
 }
 
 /*------------------------------------*\
@@ -276,4 +279,8 @@ a:focus,
 
 .product--offer:after {
   border-left-color: #0c75b7;
+}
+
+.btn-dark:hover {
+  color: #fff;
 }

@@ -105,3 +105,22 @@ small {
 .signup-dialog {
   max-width: 400px;
 }
+
+.bgblackt {
+  background-color: #000000bd;
+}
+
+.inputbg {
+  background-color: #716b6bad;
+  color: #ffffffc2 !important;
+  border: 0;
+}
+
+input::placeholder {
+  opacity: 1 !important;
+  color: inherit !important;
+}
+
+input:focus {
+  color: #000 !important;
+}
