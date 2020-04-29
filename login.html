@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ==== Document Title ==== -->
+    <title>SociFly - Multipurpose Social Network HTML5 Template</title>
+
+    <!-- ==== Document Meta ==== -->
+    <meta name="author" content="" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- ==== Favicon ==== -->
+    <link rel="icon" href="favicon.png" type="image/png" />
+
+    <!-- ==== Google Font ==== -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700%7CRoboto:300,400,400i,500,700"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- ==== Plugins Bundle ==== -->
+    <link rel="stylesheet" href="css/plugins.min.css" />
+
+    <!-- ==== Main Stylesheet ==== -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="css/colors/color-1.css"
+      id="changeColorScheme"
+    />
+
+    <!-- ==== Responsive Stylesheet ==== -->
+    <link rel="stylesheet" href="css/responsive-style.css" />
+
+    <!-- ==== Color Scheme Stylesheet ==== -->
+
+    <!-- ==== Custom Stylesheet ==== -->
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <!-- ==== HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries ==== -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+      <div class="preloader--inner"></div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Wrapper Start -->
+    <div
+      class="wrapper bgcover bgfixed bgoverlay"
+      style="background-image:url(img/banner-img/home-version-1/slider-bg-01.jpg)"
+    >
+      <div class="container">
+        <div
+          class="row justify-content-center align-items-center min-height-container pt-4 pb-4"
+        >
+          <div class="col-md-9 text-center banner--content">
+            <div class="title">
+              <h1 class="h1 text-lightgray">Create Your Hero's Journey</h1>
+            </div>
+
+            <div class="sub-title">
+              <h2 class="h2 text-lightgray">Join with Others</h2>
+            </div>
+
+            <div class="desc text-gray fs--16">
+              <p>
+                Save the World
+              </p>
+            </div>
+
+            <div class="action text-uppercase">
+              <a
+                href="#"
+                class="btn btn-white"
+                data-toggle="modal"
+                data-target="#loginModal"
+                >Login</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#signupModal"
+                >Sign up</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog login-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h4 class="modal-title text-center w-100">
+              <div class="text-center">
+                <img src="img/logo.png" class="modal-logo" />
+              </div>
+              Login
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-row">
+              <div class="col-md-12 mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter Email Address"
+                />
+              </div>
+
+              <div class="col-md-12">
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Enter password"
+                />
+                <div class="text-right mt-2">
+                  <a href="#" class="text-primary">Forgot Password?</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer pt-0 border-0">
+            <!-- <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button> -->
+            <button type="button" class="btn btn-primary rounded-pill w-100">
+              Login
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Login Modal end -->
+
+    <!-- Signup Modal -->
+    <div
+      class="modal fade"
+      id="signupModal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog signup-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h4 class="modal-title text-center w-100">
+              <div class="text-center">
+                <img src="img/logo.png" class="modal-logo" />
+              </div>
+              Signup
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter First Name"
+                />
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Last Name"
+                />
+              </div>
+
+              <div class="col-md-12 mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter Email Address"
+                />
+              </div>
+
+              <div class="col-md-12 mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Your Address"
+                />
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Enter Password"
+                />
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Enter Confirm Password"
+                />
+              </div>
+
+              <div class="col-md-12 mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Birthday"
+                />
+              </div>
+
+              <div class="col-md-12">
+                <label>Gender</label>
+                <input type="radio" name="gender" /> Female
+                <input type="radio" name="gender" class="ml-2" /> Male
+                <input type="radio" name="gender" class="ml-2" /> Other
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer pt-0 border-0">
+            <!-- <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button> -->
+            <button type="button" class="btn btn-primary w-100 rounded-pill">
+              Signup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Signup Modal end -->
+
+    <!-- Back To Top Button Start -->
+    <div id="backToTop">
+      <a href="#" class="btn"><i class="fa fa-caret-up"></i></a>
+    </div>
+    <!-- Back To Top Button End -->
+
+    <!-- ==== Plugins Bundle ==== -->
+    <script src="js/plugins.min.js"></script>
+
+    <!-- ==== Main Script ==== -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
