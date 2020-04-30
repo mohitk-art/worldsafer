@@ -29,6 +29,11 @@
       crossorigin="anonymous"
     />
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- ==== Plugins Bundle ==== -->
     <link rel="stylesheet" href="css/plugins.min.css" />
 
@@ -65,46 +70,35 @@
     <!-- Wrapper Start -->
     <div
       class="wrapper bgcover bgfixed bgoverlay d-flex justify-content-center align-items-center min-height-container pt-4 pb-4"
-      style="background-image:url(img/earth1.jpg)"
+      style="background-image:url(img/earth.jpg)"
     >
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-7 banner--content">
-            <div class="title">
-              <h1 class="h1 text-light">Create Your Hero's Journey</h1>
-            </div>
+        <div class="row">
+          <div class="col-md-7  text-white">
+            <h1 class="h1 headinglg mb-5">Create Your Hero's Journey</h1>
 
-            <div class="sub-title">
-              <h2 class="h2 text-light">Join with Others</h2>
-            </div>
+            <h1 class="h1 headinglg mb-5">Join with Others</h2>
 
-            <div class="desc text-light fs--16">
-              <p>
-                Save the World
-              </p>
-            </div>
-
-            <div class="action text-uppercase">
-              <a
-                href="#"
-                class="btn btn-white"
-                data-toggle="modal"
-                data-target="#loginModal"
-                >Login</a
-              >
-              <a
-                href="#"
-                class="btn btn-primary"
-                data-toggle="modal"
-                data-target="#signupModal"
-                >Sign up</a
-              >
-            </div>
+            <p class="h1 headinglg">
+              Save the World
+            </p>
           </div>
-
-          <div class="col-md-5">
-            <img src="img/earth.gif" class="w-100 rounded-circle" />
-          </div>
+        </div>
+        <div class="text-center action text-uppercase mt-5">
+          <a
+            href="#"
+            class="btn btn-white mx-2"
+            data-toggle="modal"
+            data-target="#loginModal"
+            >Login</a
+          >
+          <a
+            href="#"
+            class="btn btn-primary mx-2"
+            data-toggle="modal"
+            data-target="#signupModal"
+            >Sign up</a
+          >
         </div>
       </div>
     </div>
@@ -226,12 +220,24 @@
                 />
               </div>
 
-              <div class="col-md-12 mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Enter Your Address"
-                />
+              <div class="col-md-6 mb-3">
+                <select class="form-control">
+                  <option>City</option>
+                  <option>Ambala</option>
+                  <option>Yamunanagar</option>
+                  <option>Mohali</option>
+                </select>
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <select class="form-control">
+                  <option>Country</option>
+                  <option>USA</option>
+                  <option>India</option>
+                  <option>China</option>
+                  <option>New York</option>
+                  <option>Canada</option>
+                </select>
               </div>
 
               <div class="col-md-6 mb-3">
@@ -254,7 +260,7 @@
                 <input
                   type="text"
                   class="form-control"
-                  placeholder="Birthday"
+                  placeholder="Birthday (Optional)"
                 />
               </div>
 
