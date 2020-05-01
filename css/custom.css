@@ -31,10 +31,15 @@ h6,
 }
 
 .headinglg {
-  font-size: 62px;
+  font-size: 56px;
   font-weight: 400;
   line-height: normal;
   font-family: arial;
+  margin-bottom: 65px !important;
+}
+
+h1.headinglg {
+  font-size: 62px;
 }
 
 .min-height-container {
