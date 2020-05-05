@@ -77,6 +77,11 @@ You can write your custom css styles in this file...
 .bg-green {
   background-color: #1d634d !important;
 }
+
+.bg-blue {
+  background-color: #113b5e !important;
+}
+
 /* bootstrap end */
 
 .header--nav-links1 > li > a,
