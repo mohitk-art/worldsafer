@@ -73,12 +73,20 @@ You can write your custom css styles in this file...
 .bg-white {
   background-color: #fff !important;
 }
+
+.bg-green {
+  background-color: #1d634d !important;
+}
 /* bootstrap end */
 
 .header--nav-links1 > li > a,
 .header--nav-links1 .dropdown-menu > li > a {
-  color: #7f7f7f;
+  color: #dadada;
   font-weight: bold;
+}
+
+.header--nav-links1 .dropdown-menu > li > a {
+  color: #333;
 }
 
 .navbar-brand img {
@@ -93,11 +101,11 @@ You can write your custom css styles in this file...
 .header--nav-links1 > li > a:hover,
 .header--nav-links1 > li.active > a,
 .header--nav-links1 > li:hover > a {
-  color: #0c75b7 !important;
+  color: #fff !important;
 }
 
 .header--nav-links1.style--1 > li > a:before {
-  background-color: #0c75b7 !important;
+  background-color: #fff !important;
 }
 
 .header--nav-links1 > li > a > .pull-right {
