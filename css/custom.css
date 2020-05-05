@@ -1,15 +1,4 @@
-/*
-
-[Custom Stylesheet]
-
-Project     : SociFly - Multipurpose Social Network HTML5 Template
-Version     : 1.0
-Author      : ThemeLooks
-Author URI  : https://themeforest.net/user/themelooks
-
-You can write your custom css styles in this file...
-
-*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* bootstap  start */
 .m-0 {
@@ -31,20 +20,52 @@ You can write your custom css styles in this file...
   margin-top: 10px !important;
 }
 
-.pt-5 {
+.p-5 {
+  padding: 50px;
+}
+
+.pt-5,
+.py-5 {
   padding-top: 50px !important;
 }
 
-.pt-3 {
+.pb-5,
+.py-5 {
+  padding-bottom: 50px !important;
+}
+
+.pl-5,
+.px-5 {
+  padding-left: 50px !important;
+}
+
+.pr-5,
+.px-5 {
+  padding-right: 50px !important;
+}
+
+.p-3 {
+  padding: 15px;
+}
+
+.pt-3,
+.py-3 {
   padding-top: 15px !important;
 }
 
-.pb-3 {
+.pb-3,
+.py-3 {
   padding-bottom: 15px !important;
 }
 
-.pb-5 {
-  padding-bottom: 50px !important;
+.pl-3,
+.px-3 {
+  padding-left: 15px !important;
+}
+
+.pr-3,
+.px-3 {
+  padding-right: 15px !important;
 }
 
 .position-absolute {
@@ -97,7 +118,13 @@ You can write your custom css styles in this file...
   color: #aaa !important;
 }
 /* bootstrap end */
+.btn.btn-primary.rounded-pill {
+  overflow: hidden;
+}
 
+.border-0 {
+  border: 0;
+}
 /* avtar md */
 .avtar-md {
   height: 40px;
@@ -159,7 +186,8 @@ You can write your custom css styles in this file...
 
 .header--nav-links1 > li > a {
   line-height: normal;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
   padding: 9px 0 !important;
 }
 
@@ -191,7 +219,24 @@ You can write your custom css styles in this file...
   vertical-align: middle;
 }
 
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li.active > a {
+  left: 5px;
+  position: relative;
+  margin-left: 0px;
+}
+
 /* Header end */
+
+.postinput {
+  font-size: 16px;
+  border: 2px solid #113b5e;
+  border-radius: 4px;
+}
+.postinput > textarea {
+  font-size: 16px;
+  min-height: 100px;
+}
 
 .activity--avatar img {
   margin: 4px auto;
@@ -409,12 +454,12 @@ footer.footer.bg-blue a:hover {
     display: none;
   }
   .header--navbar .navbar-toggle {
-    border-color: #fff;
+    border-color: #fff !important;
     margin-left: auto;
     border-radius: 4px;
   }
   .header--navbar .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #fff !important;
   }
   .header--navbar .navbar-collapse {
     max-height: initial;
