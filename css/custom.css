@@ -75,8 +75,8 @@ You can write your custom css styles in this file...
 }
 /* bootstrap end */
 
-.header--nav-links > li > a,
-.dropdown-menu > li > a {
+.header--nav-links1 > li > a,
+.header--nav-links1 .dropdown-menu > li > a {
   color: #7f7f7f;
   font-weight: bold;
 }
@@ -85,22 +85,22 @@ You can write your custom css styles in this file...
   max-width: 130px;
 }
 
-.header--nav-links > li > a {
+.header--nav-links1 > li > a {
   line-height: 60px;
   padding: 19px 0 !important;
 }
 
-.header--nav-links > li > a:hover,
-.header--nav-links > li.active > a,
-.header--nav-links > li:hover > a {
+.header--nav-links1 > li > a:hover,
+.header--nav-links1 > li.active > a,
+.header--nav-links1 > li:hover > a {
   color: #0c75b7 !important;
 }
 
-.header--nav-links.style--1 > li > a:before {
+.header--nav-links1.style--1 > li > a:before {
   background-color: #0c75b7 !important;
 }
 
-.header--nav-links > li > a > .pull-right {
+.header--nav-links1 > li > a > .pull-right {
   position: absolute;
   line-height: normal;
   margin-left: 9px;
