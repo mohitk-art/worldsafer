@@ -84,6 +84,10 @@ You can write your custom css styles in this file...
 
 /* bootstrap end */
 
+.header--nav-links > .dropdown > .dropdown-menu {
+  top: 80px;
+}
+
 .header--nav-links1 > li > a,
 .header--nav-links1 .dropdown-menu > li > a {
   color: #dadada;
@@ -106,7 +110,7 @@ You can write your custom css styles in this file...
 .header--nav-links1 > li > a:hover,
 .header--nav-links1 > li.active > a,
 .header--nav-links1 > li:hover > a {
-  color: #fff !important;
+  color: #e84225 !important;
 }
 
 .header--nav-links1.style--1 > li > a:before {
@@ -320,6 +324,14 @@ input:focus {
 footer.footer {
   border-top: 2px solid #7f7f7f;
   font-size: 14px;
+  color: #fff;
+}
+
+img.footer-logo {
+  max-width: 150px;
+}
+footer.footer.bg-blue a:hover {
+  color: #e84225;
 }
 /* footer end */
 
