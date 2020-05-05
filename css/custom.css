@@ -279,7 +279,7 @@ img.main-logo {
 
 .login-header {
   color: #fff;
-  background-color: #0c75b7;
+  background-color: #113b5e;
 }
 
 .btn-outline-light {
@@ -322,7 +322,6 @@ input:focus {
 
 /* footer start */
 footer.footer {
-  border-top: 2px solid #7f7f7f;
   font-size: 14px;
   color: #fff;
 }
@@ -340,12 +339,12 @@ footer.footer.bg-blue a:hover {
     display: none;
   }
   .header--navbar .navbar-toggle {
-    border-color: #1074be;
+    border-color: #fff;
     margin-left: auto;
     border-radius: 4px;
   }
   .header--navbar .navbar-toggle .icon-bar {
-    background-color: #1074be;
+    background-color: #fff;
   }
   .header--navbar .navbar-collapse {
     max-height: initial;
