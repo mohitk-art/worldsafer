@@ -92,6 +92,10 @@ You can write your custom css styles in this file...
 .justify-content-between {
   justify-content: space-between !important;
 }
+
+.text-gray {
+  color: #aaa !important;
+}
 /* bootstrap end */
 
 /* avtar md */
@@ -119,13 +123,19 @@ You can write your custom css styles in this file...
   max-width: 500px;
 }
 .header--nav-links1 > .dropdown > .dropdown-menu {
-  top: 80px;
+  top: 60px;
+  left: initial;
+  right: 0;
 }
 
 .header--nav-links1,
 .header--nav-links1 > li,
 .header--nav-links1 > li > a {
   height: 100%;
+}
+
+.header--nav-links1 > li > a i.fa.fa-caret-down {
+  margin-left: 7px;
 }
 
 .header--nav-links1 > li > a {
@@ -289,10 +299,8 @@ h1.headinglg {
   position: relative;
 }
 
-.login-form-table th,
-.login-form-table td {
-  padding: 0 6px !important;
-  vertical-align: sub;
+img.modal-logo {
+  max-width: 150px;
 }
 
 .container.d-flex::before,
@@ -330,6 +338,10 @@ img.main-logo {
 .gradient {
   background: url(/rsrc.php/v3/yB/r/TwAHgQi2ZPB.png) 0 bottom repeat-x;
   background: linear-gradient(white, #b2cfe4);
+}
+
+.loginbtn {
+  font-size: 34px;
 }
 
 .login-header {
