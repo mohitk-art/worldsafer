@@ -62,6 +62,10 @@ You can write your custom css styles in this file...
 .d-flex {
   display: flex !important;
 }
+
+.rounded {
+  border-radius: 9px;
+}
 .rounded-pill {
   border-radius: 20px;
 }
@@ -82,10 +86,51 @@ You can write your custom css styles in this file...
   background-color: #113b5e !important;
 }
 
+.w-100 {
+  width: 100% !important;
+}
+.justify-content-between {
+  justify-content: space-between !important;
+}
 /* bootstrap end */
 
-.header--nav-links > .dropdown > .dropdown-menu {
+/* avtar md */
+.avtar-md {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  background-color: #ffffff85;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+}
+.avtar-md img {
+  width: calc(100% - 4px) !important;
+  height: calc(100% - 4px) !important;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* avtar md end */
+
+/* Header start */
+
+.mk-navbar-header {
+  width: 100%;
+  max-width: 500px;
+}
+.header--nav-links1 > .dropdown > .dropdown-menu {
   top: 80px;
+}
+
+.header--nav-links1,
+.header--nav-links1 > li,
+.header--nav-links1 > li > a {
+  height: 100%;
+}
+
+.header--nav-links1 > li > a {
+  display: flex;
+  align-items: center;
 }
 
 .header--nav-links1 > li > a,
@@ -99,12 +144,13 @@ You can write your custom css styles in this file...
 }
 
 .navbar-brand img {
-  max-width: 130px;
+  max-width: 115px;
 }
 
 .header--nav-links1 > li > a {
-  line-height: 60px;
-  padding: 19px 0 !important;
+  line-height: normal;
+  font-size: 16px;
+  padding: 9px 0 !important;
 }
 
 .header--nav-links1 > li > a:hover,
@@ -120,13 +166,22 @@ You can write your custom css styles in this file...
 .header--nav-links1 > li > a > .pull-right {
   position: absolute;
   line-height: normal;
-  margin-left: 9px;
+  font-size: 11px;
+  border-radius: 2px;
+  right: -16px;
+  top: 16px;
+  font-weight: 500;
+  padding: 3px;
+  background-color: #e84225;
+  color: #fff;
 }
 
 .menuh-size {
-  font-size: 44px;
+  font-size: 21px;
   vertical-align: middle;
 }
+
+/* Header end */
 
 .activity--avatar img {
   margin: 4px auto;
@@ -335,6 +390,9 @@ footer.footer.bg-blue a:hover {
 /* footer end */
 
 @media (max-width: 992px) {
+  .header--nav-links1 > li > a > .pull-right {
+    margin-right: 9px;
+  }
   .header--navbar form.searchform {
     display: none;
   }
