@@ -228,6 +228,10 @@ h1.headinglg {
   content: none;
 }
 
+img.menuicon {
+  max-width: 25px;
+  margin-right: 10px;
+}
 img.main-logo {
   max-width: 140px;
 }
