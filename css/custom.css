@@ -118,6 +118,46 @@
   color: #aaa !important;
 }
 /* bootstrap end */
+
+/* login page styling */
+img.bgimg {
+  display: block;
+  margin: auto;
+  height: calc(100% - 60px);
+  width: calc(100% - 30px);
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  object-position: right;
+}
+
+.headinglg {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: arial;
+  margin-bottom: 65px !important;
+}
+
+h1.headinglg {
+  font-size: 62px;
+}
+@media (max-width: 767px) {
+  img.bgimg {
+    position: initial;
+    margin-bottom: 15px;
+    height: auto !important;
+  }
+  h1.headinglg {
+    font-size: 50px;
+  }
+  .headinglg {
+    font-size: 48px;
+  }
+}
+/* login page styling end*/
+
 .btn.btn-primary.rounded-pill {
   overflow: hidden;
 }
@@ -296,19 +336,8 @@ h6,
   color: inherit;
 }
 
-.headinglg {
-  font-size: 56px;
-  font-weight: 400;
-  line-height: normal;
-  font-family: arial;
-  margin-bottom: 65px !important;
-}
-
-h1.headinglg {
-  font-size: 62px;
-}
-
 .min-height-container {
+  height: auto;
   min-height: 100vh;
 }
 
