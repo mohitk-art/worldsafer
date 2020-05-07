@@ -154,6 +154,10 @@ h1.headinglg {
   display: inline-block;
 }
 
+.loginbtn {
+  font-size: 300%;
+}
+
 @media (min-width: 1540px) {
   .login-buttons {
     padding-right: 19%;
@@ -438,10 +442,6 @@ img.main-logo {
 .gradient {
   background: url(/rsrc.php/v3/yB/r/TwAHgQi2ZPB.png) 0 bottom repeat-x;
   background: linear-gradient(white, #b2cfe4);
-}
-
-.loginbtn {
-  font-size: 400%;
 }
 
 .login-header {
