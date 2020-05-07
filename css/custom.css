@@ -121,7 +121,7 @@
 
 /* login page styling */
 .login-container {
-  max-width: 1440px;
+  max-width: 1540px;
 }
 .bg-img-container {
   position: absolute;
@@ -133,12 +133,12 @@
 img.bgimg {
   width: 50%;
   object-fit: contain;
-  height: calc(100vh - 40px);
+  height: 90vh;
   object-position: center right;
 }
 
 .headinglg {
-  font-size: 56px;
+  font-size: 500%;
   font-weight: 400;
   line-height: normal;
   font-family: arial;
@@ -146,17 +146,17 @@ img.bgimg {
 }
 
 h1.headinglg {
-  font-size: 62px;
+  font-size: 540%;
 }
 
 .login-buttons {
-  padding-right: 115px;
+  padding-right: 8%;
   display: inline-block;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1540px) {
   .login-buttons {
-    padding-right: 170px;
+    padding-right: 19%;
   }
 }
 
@@ -441,7 +441,7 @@ img.main-logo {
 }
 
 .loginbtn {
-  font-size: 40px;
+  font-size: 400%;
 }
 
 .login-header {
