@@ -150,7 +150,7 @@ h1.headinglg {
 }
 
 .login-buttons {
-  padding-right: 8%;
+  padding-right: 3%;
   display: inline-block;
 }
 
@@ -160,7 +160,7 @@ h1.headinglg {
 
 @media (min-width: 1540px) {
   .login-buttons {
-    padding-right: 19%;
+    padding-right: 15%;
   }
 }
 
