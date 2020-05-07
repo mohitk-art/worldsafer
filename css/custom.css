@@ -120,16 +120,21 @@
 /* bootstrap end */
 
 /* login page styling */
-img.bgimg {
-  display: block;
-  margin: auto;
-  height: calc(100% - 60px);
-  width: calc(100% - 30px);
-  object-fit: contain;
+.login-container {
+  max-width: 1440px;
+}
+.bg-img-container {
   position: absolute;
-  top: 30px;
-  right: 15px;
-  object-position: right;
+  text-align: right;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+img.bgimg {
+  width: 50%;
+  object-fit: contain;
+  height: calc(100vh - 40px);
+  object-position: center right;
 }
 
 .headinglg {
@@ -143,17 +148,38 @@ img.bgimg {
 h1.headinglg {
   font-size: 62px;
 }
+
+.login-buttons {
+  padding-right: 115px;
+  display: inline-block;
+}
+
+@media (min-width: 1400px) {
+  .login-buttons {
+    padding-right: 170px;
+  }
+}
+
 @media (max-width: 767px) {
-  img.bgimg {
+  .login-buttons {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  .bg-img-container {
     position: initial;
+    transform: translate(0);
     margin-bottom: 15px;
-    height: auto !important;
+  }
+  img.bgimg {
+    width: 100%;
+    height: auto;
+  }
+  .headinglg {
+    text-align: center;
+    font-size: 48px;
   }
   h1.headinglg {
     font-size: 50px;
-  }
-  .headinglg {
-    font-size: 48px;
   }
 }
 /* login page styling end*/
@@ -415,7 +441,7 @@ img.main-logo {
 }
 
 .loginbtn {
-  font-size: 34px;
+  font-size: 40px;
 }
 
 .login-header {
