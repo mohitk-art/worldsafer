@@ -69,7 +69,7 @@
                         <!-- Header Navbar Logo End -->
 
                         <form class="searchform w-100">
-                            <input type="text" class="form-control rounded-pill" placeholder="Search">
+                            <input type="text" class="form-control rounded" placeholder="Search">
                             <button type="submit" class="fa fa-search"></button>
                         </form>
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
@@ -102,6 +102,13 @@
                                     <span class="pull-right">5</span>
                                 </a>
                             </li>
+
+                            <li class="dropdown">
+                                    <a href="#">
+                                        <i class="fas fa-bell menuh-size"></i>
+                                        <span class="pull-right">5</span>
+                                    </a>
+                                </li>
                             <li class="dropdown megamenu">
                                 <a href="#">
                                     <span>+ Start a Project</span>
@@ -132,7 +139,7 @@
         <!-- Header Section End -->
 
         <!-- Page Wrapper Start -->
-        <section class="page--wrapper pt--20 pb--20">
+        <section class="page--wrapper pt--20 pb--20" style="background-color:#eee;">
             <div class="container">
                 <div class="row">
                     <!-- Main Content Start -->
@@ -140,20 +147,29 @@
 
 
                             <div class="mb-3">
-                                    <div class="activity--avatar float-initial">
-                                       <a href="member-activity-personal.html">
-                                           <img src="img/person.png" alt="">
-                                       </a>
-                                   </div>
-                                   <h3>Create Post</h3>
-                                   <div class="position-relative postinput p-3">
-                                       <textarea class="form-control border-0 p-0 mb-3" placeholder="Write Post Here"></textarea>
-                                       <div class="d-flex justify-content-between">
-                                           <button class="btn btn-primary rounded-pill">
+                                
+                                   <div class="position-relative postinput p-3 bg-white">
+                                       
+                                    <div class="d-flex justify-content-between">
+                                        <div class="">    
+                                        <div class="activity--avatar float-initial mr-0">
+                                                    <a href="member-activity-personal.html">
+                                                        <img src="img/person.png" alt="">
+                                                    </a>
+                                                </div>
+                                        </div>
+                                        <textarea 
+                                        class="form-control border-0" 
+                                        placeholder="What do you want to share with your friends and the world, Samuel?"
+                                        ></textarea>
+
+                                    </div>
+                                       <div class="text-right">
+                                           <button class="btn btn-primary mr-2">
                                                <i class="fas fa-photo-video"></i> Photo / Video
                                            </button>
                        
-                                           <button class="btn btn-secondary rounded-pill">
+                                           <button class="btn btn-secondary">
                                                Share with <i class="fas fa-share"></i>
                                            </button>
                                        </div>
@@ -162,7 +178,7 @@
 
 
 
-                        <div class="main--content-inner drop--shadow">
+                        <div class="main--content-inner drop--shadow bg-white">
                             <!-- Filter Nav Start -->
                             <div class="filter--nav pb--60 clearfix">
                                 <div class="filter--link float--left">
@@ -491,7 +507,7 @@
                     <div class="main--sidebar col-md-4 pb--60" data-trigger="stickyScroll">
                         
                         <!-- Widget Start -->
-                        <div class="widget">
+                        <div class="widget bg-white">
                             <h2 class="h4 fw--700 widget--title">World Saver TV</h2>
                             <iframe
                                 width="100%"
@@ -507,7 +523,7 @@
 
 
                            <!-- Widget Start -->
-                           <div class="widget">
+                           <div class="widget bg-white">
                                 <h2 class="h4 fw--700 widget--title">Show Archives</h2>
     
                                 <!-- Text Widget Start -->
@@ -521,7 +537,7 @@
 
                             
                         <!-- Widget Start -->
-                        <div class="widget">
+                        <div class="widget bg-white">
                                 <h2 class="h4 fw--700 widget--title mb-2">Find A Project</h2>
                                 <input type="text" placeholder="Serch" class="form-control mb-3">
                                 <!-- Links Widget Start -->
@@ -541,7 +557,7 @@
 
 
                                  <!-- Widget Start -->
-                        <div class="widget">
+                        <div class="widget bg-white">
                                 <h2 class="h4 fw--700 widget--title mb-2">News and Articles</h2>
                                 <input type="text" placeholder="Serch" class="form-control mb-3">
                                 <!-- Nav Widget Start -->
@@ -578,7 +594,7 @@
 
 
                         <!-- Widget Start -->
-                        <div class="widget">
+                        <div class="widget bg-white">
                                 <h2 class="h4 fw--700 widget--title">Top Sellers</h2>
 
                                 <!-- Ad Widget Start -->
@@ -595,7 +611,7 @@
 
 
                         <!-- Widget Start -->
-                        <div class="widget">
+                        <div class="widget bg-white">
                                 <h2 class="h4 fw--700 widget--title">Advertisements</h2>
     
                                 <!-- Ad Widget Start -->
@@ -610,7 +626,7 @@
                             <!-- Widget End -->
                         
                         <!-- Widget Start -->
-                        <div class="widget">
+                        <div class="widget bg-white">
                             <h2 class="h4 fw--700 widget--title">Find A World Saver</h2>
 
                             <!-- Buddy Finder Widget Start -->
