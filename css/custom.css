@@ -221,10 +221,19 @@ h1.headinglg {
 /* avtar md end */
 
 /* Header start */
+.header--navbar > .container {
+  width: 100%;
+  max-width: 1290px;
+}
+
+.mk-navbar-header .btn-outline-light {
+  color: #fff;
+  padding: 6px 22px;
+}
 
 .mk-navbar-header {
   width: 100%;
-  max-width: 500px;
+  max-width: 590px;
 }
 .header--nav-links1 > .dropdown > .dropdown-menu {
   top: 60px;
@@ -257,8 +266,12 @@ h1.headinglg {
   color: #333;
 }
 
+.navbar-brand {
+  margin-right: 50px;
+}
+
 .navbar-brand img {
-  max-width: 115px;
+  max-width: 90px;
 }
 
 .header--nav-links1 > li > a {
@@ -284,7 +297,7 @@ h1.headinglg {
   font-size: 11px;
   border-radius: 2px;
   right: -16px;
-  top: 16px;
+  top: 8px;
   font-weight: 500;
   padding: 3px;
   background-color: #e84225;
@@ -307,8 +320,7 @@ h1.headinglg {
 
 .postinput {
   font-size: 16px;
-  border: 2px solid #eee;
-  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 .postinput textarea {
   font-size: 16px;
@@ -339,7 +351,7 @@ h1.headinglg {
 
 .searchform {
   position: relative;
-  margin-right: 15px;
+  margin-right: 50px;
 }
 
 .searchform button {
